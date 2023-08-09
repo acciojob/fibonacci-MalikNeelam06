@@ -2,13 +2,13 @@ function fibonacci(num) {
 // your code here
 	let x=0;
 	let y=1;
+	while(num<=50){
 	let z=x+y;
-	while(z<num){
 		x=y;
 		y=z;
-		z=x+y;
 	}
-	console.log(z);
+console.log(x);
+	return;
 }
 
 module.exports = fibonacci;
