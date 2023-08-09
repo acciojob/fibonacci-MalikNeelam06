@@ -8,7 +8,7 @@ function fibonacci(num) {
 		y=z;
 		z=x+y;
 	}
-	console.log(x);
+	console.log(z);
 }
 
 module.exports = fibonacci;
