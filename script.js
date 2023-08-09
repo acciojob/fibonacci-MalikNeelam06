@@ -4,10 +4,11 @@ function fibonacci(num) {
 	let y=1;
 	let z=x+y;
 	while(z<num){
-		console.log(z);
 		x=y;
 		y=z;
+		z=x+y;
 	}
+	console.log(x);
 }
 
 module.exports = fibonacci;
